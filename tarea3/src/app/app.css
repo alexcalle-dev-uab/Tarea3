@@ -1,0 +1,72 @@
+.contenedor {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #1e293b;
+}
+
+.encabezado {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.encabezado h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2rem;
+}
+
+.subtitulo {
+  color: #64748b;
+  margin: 0 0 0.75rem;
+}
+
+.tarjeta {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tarjeta h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #334155;
+}
+
+.lista-categorias {
+  padding-left: 1.25rem;
+  margin: 0;
+  line-height: 1.8;
+}
+
+.nombre-producto {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.precio-producto {
+  font-size: 1.1rem;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.abierto, .disponible {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.cerrado, .agotado {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
